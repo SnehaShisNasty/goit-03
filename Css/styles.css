@@ -1,15 +1,18 @@
-button {
-  padding: 0px;
-}
 body {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
 }
-
+address {
+  font-style: normal;
+}
+header,
+footer,
+main {
+  font-family: Roboto, sans-serif;
+}
 .verb-span-header {
   color: #2196f3;
   font-family: Raleway;
@@ -66,6 +69,7 @@ header {
 }
 .up-main {
   background-color: #2f303a;
+  width: 1600px;
 }
 .h-section-1 {
   font-weight: 900;
@@ -79,16 +83,14 @@ header {
 .button-section-1 {
   width: 200px;
   height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  left: 700px;
+  top: 430px;
   background: #2196f3;
   font-size: 16px;
   color: white;
   letter-spacing: 0.06em;
   line-height: 1.9;
   font-weight: 700;
-  padding: 10px;
-  padding: 10px 32px;
 }
 .h-section-2 {
   text-transform: uppercase;
