@@ -79,6 +79,7 @@ address {
 }
 .button {
   background: #ffffff;
+  padding: 10px 32px;
 }
 .span-button-section {
   font-weight: 500;
