@@ -8,6 +8,9 @@ button {
 a {
   text-decoration: none;
 }
+h2 {
+  margin: 0px;
+}
 address {
   font-style: normal;
 }
@@ -19,8 +22,8 @@ main {
 .up {
   width: 1170px;
   background-color: tomato;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 215px;
+  margin-left: 215px;
 }
 .verb-span-header {
   color: #2196f3;
@@ -82,6 +85,8 @@ header {
 }
 .up-main-section {
   width: 1170px;
+  margin-right: 215px;
+  margin-left: 215px;
 }
 .h-section-1 {
   font-weight: 900;
