@@ -1,3 +1,36 @@
+:root {
+  --page-bg-color: #ffffff;
+  --primary-text-color: #212121;
+  --card-set-gap: 30px;
+  --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  background-color: var(--page-bg-color);
+  color: var(--primary-text-color);
+  line-height: 1.5;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
@@ -57,6 +90,10 @@ address {
   font-size: 14px;
   font-weight: 500;
 }
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
 .contacts-email {
   color: #757575;
   font-weight: 500;
@@ -91,32 +128,69 @@ footer {
   width: 1600px;
   height: 252px;
 }
-.h3-1,
-.h3-2,
-.h3-3,
-.h3-4,
-.h3-5,
-.h3-6,
-.h3-7,
-.h3-8,
-.h3-9 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  color: #212121;
-  letter-spacing: 0.06em;
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.h4-1,
-.h4-2,
-.h4-3,
-.h4-4,
-.h4-5,
-.h4-6,
-.h4-7,
-.h4-8,
-.h4-9 {
+
+/* PAGE */
+.page-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+}
+
+/* CARD SET */
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.card-set > .item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+/* CARD */
+.card {
+  box-shadow: var(--card-shadow);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px 24px;
+}
+
+.card-text {
+  margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   color: #757575;
+}
+.card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
 }
