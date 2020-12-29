@@ -11,9 +11,7 @@ button {
 a {
   text-decoration: none;
 }
-h2 {
-  margin: 0px;
-}
+h2,
 h3 {
   margin: 0px;
 }
@@ -31,16 +29,21 @@ header,
 footer,
 main {
   font-family: Roboto, sans-serif;
+  width: 1600px;
 }
-/*1 контейнер*/
+/*шапка контейнер*/
+
 .up {
   width: 1170px;
-  background-color: rgb(206, 177, 15);
   margin-right: 200px;
   margin-left: 200px;
   padding-left: 15px;
   padding-right: 15px;
 }
+.nav {
+  display: flex;
+}
+
 .verb-span-header {
   color: #2196f3;
   font-family: Raleway;
@@ -68,12 +71,14 @@ main {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
+  margin-right: 50px;
 }
 
 .nav-li-2 {
   color: black;
   font-size: 14px;
   font-weight: 500;
+  margin-right: 50px;
 }
 .nav-li-3 {
   color: black;
@@ -129,6 +134,13 @@ header {
   min-width: 130px;
   text-align: center;
 }
+.section-2 {
+  width: 1170px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .h-section-2 {
   text-transform: uppercase;
   font-weight: 700;
@@ -143,14 +155,6 @@ header {
   line-height: 1.14;
 }
 
-.section-2 {
-  width: 1170px;
-  margin-left: 200px;
-  margin-right: 200px;
-  background-color: rgb(9, 13, 66);
-  padding-left: 15px;
-  padding-right: 15px;
-}
 /* 3контайнер*/
 .section-3 {
   background: rgb(32, 11, 7);
@@ -202,9 +206,16 @@ header {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.7;
+  display: block;
 }
 
 footer {
   background: #2f303a;
-  width: 1600px;
+}
+.footer {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 1170;
+  margin-right: 200px;
+  margin-left: 200px;
 }
