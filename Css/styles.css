@@ -39,6 +39,8 @@ main {
   margin-left: 200px;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -73,7 +75,10 @@ main {
   font-weight: 500;
   margin-right: 50px;
 }
-
+.address-1 {
+  display: inline;
+  display: flex;
+}
 .nav-li-2 {
   color: black;
   font-size: 14px;
@@ -103,6 +108,7 @@ header {
 .up-main {
   background-color: #2f303a;
   width: 1600px;
+  display: flex;
 }
 /*2 контейнер*/
 .up-main-section {
