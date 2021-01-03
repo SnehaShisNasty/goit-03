@@ -34,18 +34,15 @@ main {
 /*шапка контейнер*/
 
 .up {
-  width: 1170px;
+  width: 1200px;
   margin-right: 200px;
   margin-left: 200px;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px;
+
   display: flex;
   align-items: center;
 }
-.nav {
-  display: flex;
-}
-
 .verb-span-header {
   color: #2196f3;
   font-family: Raleway;
@@ -60,6 +57,10 @@ main {
   font-weight: 700;
   line-height: 1.2;
 }
+.nav-a {
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
 .verb-span-nav-1 {
   color: #2196f3;
   line-height: 1.14;
@@ -69,26 +70,44 @@ main {
   line-height: 1.14;
 }
 
+.nav-a-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: tomato;
+}
+.nav {
+  margin-left: 93px;
+  display: flex;
+  margin-right: 331px;
+}
+
 .nav-li-1 {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
   margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .address-1 {
   display: inline;
   display: flex;
+  margin: 0px;
 }
 .nav-li-2 {
   color: black;
   font-size: 14px;
   font-weight: 500;
   margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .nav-li-3 {
   color: black;
   font-size: 14px;
   font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contacts-email {
   color: #757575;
@@ -102,8 +121,16 @@ main {
   font-size: 14px;
   line-height: 1.14;
 }
+.address-li-1 {
+  margin-right: 50px;
+}
+.address-li-2 {
+  margin-right: 0px;
+  margin: 0px;
+}
 header {
   background-color: white;
+  letter-spacing: 0.01em;
 }
 .up-main {
   background-color: #2f303a;

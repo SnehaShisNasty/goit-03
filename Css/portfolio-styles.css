@@ -49,6 +49,17 @@ main {
 address {
   font-style: normal;
 }
+.up {
+  width: 1200px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 93px;
+
+  display: flex;
+  align-items: center;
+}
 .verb-span-header {
   color: #2196f3;
   font-family: Raleway;
@@ -63,36 +74,56 @@ address {
   font-weight: 700;
   line-height: 1.2;
 }
+.nav-a {
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
 .verb-span-nav-1 {
-  color: black;
+  color: #2196f3;
   line-height: 1.14;
 }
 .verb-span-nav-2 {
-  color: #2196f3;
+  color: black;
   line-height: 1.14;
 }
-.verb-span-nav-3 {
-  line-height: 1.14;
-  color: black;
+
+.nav-a-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav {
+  margin-left: 93px;
+  display: flex;
+  margin-right: 331px;
 }
 
 .nav-li-1 {
-  font-size: 14px;
-  font-weight: 500;
-}
-.nav-li-2 {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.address-1 {
+  display: inline;
+  display: flex;
+  margin: 0px;
+}
+.nav-li-2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .nav-li-3 {
   color: black;
   font-size: 14px;
   font-weight: 500;
-}
-.button-container {
-  text-align: center;
-  margin-bottom: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contacts-email {
   color: #757575;
@@ -105,6 +136,22 @@ address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.address-li-1 {
+  margin-right: 50px;
+}
+.address-li-2 {
+  margin-right: 0px;
+  margin: 0px;
+}
+header {
+  background-color: white;
+  letter-spacing: 0.01em;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .contacts-city {
