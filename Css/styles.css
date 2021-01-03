@@ -5,26 +5,18 @@ body {
 li {
   list-style-type: none;
 }
-button {
-  padding: 0px;
-}
 a {
   text-decoration: none;
 }
 h2,
-h3 {
-  margin: 0px;
-}
-ul {
+h3,
+ul,
+p,
+button {
   margin: 0px;
   padding: 0px;
 }
-p {
-  margin: 0px;
-}
-address {
-  font-style: normal;
-}
+
 header,
 footer,
 main {
@@ -136,10 +128,11 @@ header {
   background-color: #2f303a;
   width: 1600px;
   display: flex;
+  margin-bottom: 93px;
 }
 /*2 контейнер*/
 .up-main-section {
-  width: 1170px;
+  width: 1200px;
   margin-right: 200px;
   margin-left: 200px;
   text-align: center;
@@ -153,6 +146,7 @@ header {
   letter-spacing: 0.06em;
   line-height: 1.9;
   margin-bottom: 30px;
+  margin-top: 200px;
 }
 .button-section-1 {
   padding: 10px 32px;
@@ -166,36 +160,52 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 130px;
   text-align: center;
+  margin-bottom: 200px;
 }
 .section-2 {
-  width: 1170px;
+  width: 1200px;
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: tomato;
+  margin-bottom: 94px;
+}
+.item-container-2 {
+  margin-right: 60px;
 }
 .h-section-2 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   color: #212121;
-  line-height: 1.14;
+  line-height: 2;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .p-section-2 {
   font-weight: 400;
   font-size: 14px;
   color: #757575;
-  line-height: 1.14;
+  line-height: 2;
+  letter-spacing: 0.03em;
 }
 
 /* 3контайнер*/
 .section-3 {
   background: rgb(32, 11, 7);
-  width: 1170px;
+  width: 1200px;
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 94px;
+}
+.set {
+  display: flex;
+}
+.item-container-3 {
+  margin-left: 30px;
 }
 .h-section-3 {
   font-weight: 700;
@@ -203,6 +213,7 @@ header {
   text-align: center;
   color: #212121;
   line-height: 1.6;
+  margin-bottom: 94px;
 }
 .section-4 {
   background-color: #f5f4fa;
@@ -240,6 +251,7 @@ header {
   color: #ffffff;
   line-height: 1.7;
   display: block;
+  margin-bottom: 9px;
 }
 
 footer {
@@ -248,7 +260,26 @@ footer {
 .footer {
   margin-left: 15px;
   margin-right: 15px;
-  width: 1170;
+  width: 1200;
   margin-right: 200px;
   margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container-2 {
+  display: flex;
+}
+
+address > .contacts-email {
+  display: block;
+  margin-bottom: 9px;
+}
+address > .contacts-telefon {
+  display: block;
+  margin-bottom: 60px;
+}
+.footer-a {
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
