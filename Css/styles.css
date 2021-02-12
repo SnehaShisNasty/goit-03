@@ -22,10 +22,10 @@ p,
 button {
   margin: 0px;
   padding: 0px;
-  border: 0px;
 }
 button {
   cursor: pointer;
+  border: 0px;
 }
 header,
 footer,
@@ -310,7 +310,6 @@ header {
 .section-4 {
   width: 1600px;
   background-color: #f5f4fa;
-  padding-bottom: 94px;
   padding-top: 94px;
 }
 
