@@ -327,10 +327,10 @@ header {
 /* PAGE */
 .page-title {
   font-size: 36px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-family: Roboto;
   font-weight: 700;
-  margin-bottom: 50px;
+  display: flex;
 }
 .section-4 {
   width: 1600px;
